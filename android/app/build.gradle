@@ -1,0 +1,123 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+
+android {
+
+    aaptOptions {
+        noCompress "tflite"
+        noCompress "lite"
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.marianhanna.copticmeetapp"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 52
+        versionName "5.5.0"
+        multiDexEnabled true
+    }
+
+  signingConfigs {
+       release {
+           keyAlias keystoreProperties['keyAlias']
+           keyPassword keystoreProperties['keyPassword']
+           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+           storePassword keystoreProperties['storePassword']
+       }
+   }
+
+   buildTypes {
+       release {
+           signingConfig signingConfigs.release
+           shrinkResources false
+           minifyEnabled false
+       }
+   }
+
+
+    // signingConfigs {
+    //     release {
+            
+    //         keyAlias 'key'
+    //         keyPassword '112111'
+    //         storeFile file("key.jks")
+    //         storePassword '112111'
+    //     }
+    // }
+
+
+    // buildTypes {
+    //     release {
+    //         signingConfig signingConfigs.release
+    //         shrinkResources false
+    //         minifyEnabled false
+    //     }
+    // }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation project(':spotify-app-remote')
+    implementation project(':spotify-auth')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation platform('com.google.firebase:firebase-bom:26.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "androidx.browser:browser:1.2.0"
+
+    def billing_version = "4.0.0"
+
+    implementation "com.android.billingclient:billing:$billing_version"
+
+}

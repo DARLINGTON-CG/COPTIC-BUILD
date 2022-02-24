@@ -1,0 +1,176 @@
+{
+  "project_info": {
+    "project_number": "428742840761",
+    "firebase_url": "https://coptic-meet-1539932266201.firebaseio.com",
+    "project_id": "coptic-meet-1539932266201",
+    "storage_bucket": "coptic-meet-1539932266201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428742840761:android:c165e7d71af23297ee6668",
+        "android_client_info": {
+          "package_name": "com.marianhanna.copticmeetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428742840761-1asgioj5inf4or4omeums6v1qvu6vk07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "d0520639a49da6f1c2b0762b6ff17d1c39c30c13"
+          }
+        },
+        {
+          "client_id": "428742840761-1rs2oq0702bthuu43uvo9ode9d1fl0gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "103f648d26a19836deefdef7ec04d17d08722600"
+          }
+        },
+        {
+          "client_id": "428742840761-40s87qrdphm7kefterv1h1ugb4u7k9hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "312f674a1b5f94c9573b3555597baf198815f4ab"
+          }
+        },
+        {
+          "client_id": "428742840761-92ii3ts42qhoimmtat8oa110c1pno01n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "91a6cd08e2e1bf853b5efbb844ead7ab29e915d1"
+          }
+        },
+        {
+          "client_id": "428742840761-9vi97o0v7tadid9li6lgqdhn548164v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "e5ecc63bdedc48fdfb45abf5d467f9683465e0b9"
+          }
+        },
+        {
+          "client_id": "428742840761-a0cofv4kd1n40eq3e7jr1b2m9p0th0ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "f98d502778c0807cad0c545956cbc5781d96f1fc"
+          }
+        },
+        {
+          "client_id": "428742840761-c7egb391jbb7caunbd6likpqhg4qi74m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "95cb5987533428e43d1e14bef3712b431a235d30"
+          }
+        },
+        {
+          "client_id": "428742840761-e2ahkhhesjk6aeebvrq5dmooqlor060j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "55f374161b65841235c8c01b000afa3ed3cd793c"
+          }
+        },
+        {
+          "client_id": "428742840761-euv6fi3cat3qlbrg1v4q8ts4rfig58he.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "bb99a69c1f90024fb3e32e010dc7b9e97b73a18a"
+          }
+        },
+        {
+          "client_id": "428742840761-hvkn9j21iir5ubnroh9rcb0p4oj79ako.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "a7b8b270f7c2862d169333b7538e68e0455b1417"
+          }
+        },
+        {
+          "client_id": "428742840761-j83foqa7ddivsa4rvm99kubelq143ien.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "66fb2d101a7bbb8ea2ff9e3191e3c0aab1d92ef5"
+          }
+        },
+        {
+          "client_id": "428742840761-jfj48vtj9d8n5nlt4lqrhcrn89urasik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "259073fae21a8396234c94852eba33d11e441ed9"
+          }
+        },
+        {
+          "client_id": "428742840761-oe4c5obh1oqd7q66b3v5f65ufcdntf0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "5c33fe94bcf0350c358ae979642a149c40815f02"
+          }
+        },
+        {
+          "client_id": "428742840761-sctek5p72kho0c84epa3c9fjean4d2s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "1f98527f5f77572e99bba3162124ec753065999b"
+          }
+        },
+        {
+          "client_id": "428742840761-sfd750bks42l2c65di5304194vmhirei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "5b19f4abcabbe5ea86098f708c72066dd89d3ee9"
+          }
+        },
+        {
+          "client_id": "428742840761-umndi43g85bcugmc2sspihl79pg1sa0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marianhanna.copticmeetapp",
+            "certificate_hash": "625cf899a1962a44f49355f625b6c3e56de3af23"
+          }
+        },
+        {
+          "client_id": "428742840761-l2c0ptfqnd1f5v7i1bipf6jti6d3sbt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe1xS4tXNb2rAZjW6qr-6BvC5hTzLuPjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428742840761-hcdjn39od7e1trm5jtbkib4oggtio10j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "428742840761-2f0190ib43auh03ue2jbdvjclv4391pc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.marianhanna.copticmeet",
+                "app_store_id": "1435746284"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

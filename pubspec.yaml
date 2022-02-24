@@ -1,0 +1,160 @@
+name: copticmeet
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 4.6.0+42
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apple_sign_in: ^0.1.0
+  bubble: ^1.1.9+1
+  cached_network_image: ^2.1.0+1
+  carousel_pro: ^1.0.0
+  carousel_slider: ^2.0.0
+  connectivity: ^0.4.8+2
+  cupertino_icons: ^1.0.3
+  dotted_border: ^1.0.5
+  tflite_flutter: ^0.8.0
+  image: ^3.0.2
+  expandable: ^2.2.0
+  file_picker: ^1.1.1
+  firebase_analytics: ^6.3.0
+  firebase_auth: ^0.18.4+1
+  firebase_core: ^0.5.3
+  firebase_database: ^4.4.0
+  firebase_messaging: ^7.0.3
+  firebase_storage: ^5.2.0
+  flushbar: ^1.10.4
+  flutter_linkify: ^3.1.0
+  flutter_native_splash: ^0.1.9
+  flutter_signin_button: ^1.0.0
+  flutter_swiper: ^1.1.6
+  fluttertoast: ^8.0.3
+  geolocator: ^5.3.1
+  giphy_picker: ^1.0.4
+  google_maps_flutter: ^0.5.26+4
+  google_maps_place_picker: null
+  google_sign_in: ^4.4.1
+  image_cropper: ^1.4.0
+  image_picker: 0.6.0+17
+  in_app_purchase: ^0.5.1+1
+  intl: null
+  material_design_icons_flutter: ^2.7.94
+  mime: ^0.9.6+3
+  photo_view: null
+  pin_code_fields: ^2.5.1
+  pin_input_text_field: ^3.0.1
+  polygon_clipper: ^1.0.2
+  popup_menu: ^1.0.5
+  provider: ^5.0.0
+  reorderables: ^0.3.2
+  rflutter_alert: ^1.0.3
+  spotify_sdk: ^1.0.2
+  #shared_preferences:
+  shared_preferences: ^2.0.6
+  swipe_stack: ^1.0.0
+  timeago: ^2.0.26
+  url_launcher: ^5.4.5
+  video_player:
+  video_thumbnail: ^0.3.3
+  path_provider:
+  chewie: ^1.2.2
+  camera:
+  dio:
+  flutter_svg:
+  google_ml_kit: ^0.6.0
+  progress_dialog:
+  flutter_cache_manager:
+  flutter_link_preview:
+  blur: ^3.0.0  
+
+dependency_overrides:
+  provider: ^5.0.0
+  image: ^2.1.4
+  quiver: ^2.1.3
+  json_annotation: '4.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+#flutter_icons:
+#  image_path: 'assets/images/logos/1024.png'
+#  android: true
+#  ios: true
+flutter_native_splash:
+  image: assets/images/logos/large/logo.png
+  color: "#FFFFFF"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logos/large/
+    - assets/images/icons/
+    - assets/images/logos/large/logo.png
+    - assets/images/logos/google/g-logo.png
+    - assets/images/logos/google/spotify.png
+    - assets/data/country_codes/country_phone_codes.json
+    - assets/images/pro_mode_icons/lifetime.png
+    - assets/images/pro_mode_icons/one_month.png
+    - assets/images/pro_mode_icons/one_week.png
+    - assets/images/pro_mode_icons/three_months.png
+    - assets/eula/eula.txt
+    - assets/mobilefacenet.tflite
+    - assets/images/copt_shop.webp
+    - assets/images/logos/hat.png
+    - assets/images/meet_collection.png
+  #  - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Papyrus
+      fonts:
+        - asset: assets/fonts/papyrus.ttf
+    - family: CopticMeetIcons
+      fonts:
+        - asset: assets/fonts/CopticMeetIcons.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
