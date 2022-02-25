@@ -19,6 +19,7 @@ final databaseURL =
 
 void main() async {
   InAppPurchaseConnection.enablePendingPurchases();
+  //App Purchases
   // Fix for: Unhandled Exception: ServicesBinding.defaultBinaryMessenger was accessed before the binding was initialized.
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
